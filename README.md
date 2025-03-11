@@ -5,3 +5,4 @@
 </p>
 
 # Instituto Criativa
+<a href= "https://www.institutocriativo.com.br/"><img src="[https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU](https://www.institutocriativo.com.br/images/foto_lucy-p-500.jpeg)" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
