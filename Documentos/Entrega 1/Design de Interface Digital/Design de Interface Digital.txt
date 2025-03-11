@@ -1,0 +1,5 @@
+Design:
+https://www.figma.com/design/VLtcoRZg1ug0lHvXYCyh4i/Design?node-id=1-1858&t=f1qGc1SxpdSru9yX-1
+
+Fluxograma:
+https://www.figma.com/board/RiAlU1D4Ot0apJ8nosCtxD/Fluxograma?node-id=0-1&t=DG688tX9nPKDcZw8-1
