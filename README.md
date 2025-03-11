@@ -3,7 +3,12 @@
 <p align="center">
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
-## Integrantes: <a href="https://www.linkedin.com/in/luanpires-silva/">Henrique Jorge</a>, <a href="https://www.linkedin.com/in/pedro-augusto-da-silva-macedo-9a0200187/">Pedro Macedo</a>, <a href="https://www.linkedin.com/in/luiz-eduardo-souza-rocha-09aab2321/">Luiz Rocha</a>
+
+## Integrantes:
+
+<a href="https://www.linkedin.com/in/luanpires-silva/" target="_blank">Henrique Jorge</a>, 
+<a href="https://www.linkedin.com/in/pedro-augusto-da-silva-macedo-9a0200187/" target="_blank">Pedro Macedo</a>, 
+<a href="https://www.linkedin.com/in/luiz-eduardo-souza-rocha-09aab2321/" target="_blank">Luiz Rocha</a>
 
 # Instituto Criativo
 <p align="center">
