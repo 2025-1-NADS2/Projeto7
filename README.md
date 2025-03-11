@@ -6,7 +6,7 @@
 
 ## Integrantes:
 
-<a href="https://www.linkedin.com/in/luanpires-silva/" target="_blank">Henrique Jorge</a>, 
+<a href="https://www.linkedin.com/in/henrique-jorge-2b977726b/" target="_blank">Henrique Jorge</a>, 
 <a href="https://www.linkedin.com/in/pedro-augusto-da-silva-macedo-9a0200187/" target="_blank">Pedro Macedo</a>, 
 <a href="https://www.linkedin.com/in/luiz-eduardo-souza-rocha-09aab2321/" target="_blank">Luiz Rocha</a>
 
