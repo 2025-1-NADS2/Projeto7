@@ -5,4 +5,8 @@
 </p>
 
 # Instituto Criativa
-[<a href= "https://www.institutocriativo.com.br/"><img src="[images/foto_lucy-p-500.jpeg 500w" border="0"></a>](https://www.institutocriativo.com.br/images/foto_lucy-p-500.jpeg)
+<p align="center">
+  <a href="https://www.institutocriativo.com.br">
+    <img src="https://www.institutocriativo.com.br/images/foto_lucy-p-500.jpeg" alt="Instituto Criativo" border="0">
+  </a>
+</p>
