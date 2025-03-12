@@ -72,4 +72,3 @@ public class Relatorio
         Descricao = descricao;
     }
 }
-
