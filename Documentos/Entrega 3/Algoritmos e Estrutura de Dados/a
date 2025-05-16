@@ -1,1 +1,120 @@
-a
+using System;
+using System.Collections.Generic;
+
+public class Curso
+{
+    public string Titulo;
+    public string Responsavel;
+
+    public Curso(string Titulo, string Resp)
+    {
+        this.Titulo = Titulo;
+        Responsavel = Resp;
+    }
+}
+
+public class Evento
+{
+    public string NomeUsuario;
+    public DateTime DataEvento;
+    public string RepresentanteEvento;
+    public string Legenda;
+    public List<Curso> Programa;
+
+    public Evento(string nomeUsuario, DateTime dataEvento, string representanteEvento, string legenda)
+    {
+        NomeUsuario = nomeUsuario;
+        DataEvento = dataEvento;
+        RepresentanteEvento = representanteEvento;
+        Legenda = legenda;
+        Programa = new List<Curso>();
+    }
+}
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        List<Evento> eventos = new List<Evento>();
+        Evento evento1 = new Evento("Alice Silva", new DateTime(2023, 10, 15), "Representante A", "Legenda A");
+        evento1.Programa.Add(new Curso("SQL", "Luiz"));
+        evento1.Programa.Add(new Curso("JavaScript", "Henrique"));
+        evento1.Programa.Add(new Curso("FullStack", "Pedro"));
+        eventos.Add(evento1);
+        eventos.Add(new Evento("Bruno Costa", new DateTime(2023, 9, 10), "Representante B", "Legenda B"));
+        eventos.Add(new Evento("Carla Oliveira", new DateTime(2023, 11, 5), "Representante C", "Legenda C"));
+        eventos.Add(new Evento("Daniela Santos", new DateTime(2023, 8, 20), "Representante D", "Legenda D"));
+
+        eventos.Sort((a, b) => a.DataEvento.CompareTo(b.DataEvento));
+
+        DateTime inicio = new DateTime(2023, 9, 1);
+        DateTime fim = new DateTime(2023, 10, 31);
+        string parteNome = "a";
+
+        List<Evento> encontrados = BuscarPorIntervaloEParteNome(eventos, inicio, fim, parteNome);
+
+        Console.WriteLine($"Eventos entre {inicio.ToShortDateString()} e {fim.ToShortDateString()} com nome contendo '{parteNome}':");
+        foreach (var ev in encontrados)
+        {
+            Console.WriteLine($"[ENCONTRADO] Nome: {ev.NomeUsuario}, Data: {ev.DataEvento.ToShortDateString()}");
+        }
+    }
+
+    public static List<Evento> BuscarPorIntervaloEParteNome(List<Evento> eventos, DateTime inicio, DateTime fim, string parteNome)
+    {
+        List<Evento> resultado = new List<Evento>();
+
+
+        int start = BinarySearchStartIndex(eventos, inicio);
+
+        int end = BinarySearchEndIndex(eventos, fim);
+
+        for (int i = start; i <= end; i++)
+        {
+            if (eventos[i].NomeUsuario.ToLower().Contains(parteNome.ToLower()))
+            {
+                resultado.Add(eventos[i]);
+            }
+        }
+
+        return resultado;
+    }
+
+    private static int BinarySearchStartIndex(List<Evento> eventos, DateTime dataInicio)
+    {
+        int low = 0, high = eventos.Count - 1, result = eventos.Count;
+        while (low <= high)
+        {
+            int mid = (low + high) / 2;
+            if (eventos[mid].DataEvento >= dataInicio)
+            {
+                result = mid;
+                high = mid - 1;
+            }
+            else
+            {
+                low = mid + 1;
+            }
+        }
+        return result;
+    }
+
+    private static int BinarySearchEndIndex(List<Evento> eventos, DateTime dataFim)
+    {
+        int low = 0, high = eventos.Count - 1, result = -1;
+        while (low <= high)
+        {
+            int mid = (low + high) / 2;
+            if (eventos[mid].DataEvento <= dataFim)
+            {
+                result = mid;
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid - 1;
+            }
+        }
+        return result;
+    }
+}
