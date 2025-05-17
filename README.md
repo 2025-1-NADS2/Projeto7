@@ -13,6 +13,6 @@
 # Instituto Criativo - InovaEduca
 <p align="center">
   <a href="https://www.institutocriativo.com.br">
-    <img src="https://www.institutocriativo.com.br/images/foto_lucy-p-500.jpeg" alt="Instituto Criativo" border="0">
+    <img src="foto_lucy-p-500.jpeg" alt="Instituto Criativo" border="0">
   </a>
 </p>
