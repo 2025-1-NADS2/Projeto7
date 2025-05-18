@@ -135,11 +135,7 @@ instituto-criativo/
 
 ---
 
-## 📂 Documentação dos Projetos Hidrossanitários
-
-Este repositório contém as pranchas de um projeto hidrossanitário com vistas isométricas e plantas baixas das instalações hidráulicas e sanitárias. As imagens estão organizadas e nomeadas sequencialmente para fácil referência.
-
-### 🖼️ Imagens incluídas:
+## 🖼️ Imagens incluídas:
 
 | Nome do Arquivo   | Descrição                                        |
 |-------------------|--------------------------------------------------|
