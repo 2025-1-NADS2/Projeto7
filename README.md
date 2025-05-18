@@ -137,26 +137,26 @@ instituto-criativo/
 
 ## 📸 Capturas de Tela
 
-### 🧊 Pagina incial
-![Isométrico de Água Fria](Imagens/imagem1.png)
+### 🔑 Página Inicial  
+![Tela inicial do sistema mostrando visão geral](Imagens/imagem1.png)
 
-### 🚰 Login
-![Planta de Água Fria – Vista Superior](Imagens/imagem2.png)
+### 📝 Tela de Login  
+![Formulário de autenticação para acesso ao sistema](Imagens/imagem2.png)
 
-### 🏢 Cadastre-se
-![Planta de Água Fria – Outro Pavimento](Imagens/imagem3.png)
+### 🆕 Tela de Cadastro  
+![Formulário para criação de nova conta de usuário](Imagens/imagem3.png)
 
-### ♻️ Dashboard
-![Planta Baixa de Esgoto](Imagens/imagem4.png)
+### 📊 Dashboard  
+![Painel principal com resumo de dados e navegação](Imagens/imagem4.png)
 
-### 🧱 Criar Evento
-![Isométrico de Esgoto](Imagens/imagem5.png)
+### ➕ Criar Novo Evento  
+![Formulário para criação de um novo evento ou tarefa](Imagens/imagem5.png)
 
-### 🌀 Editar Evento
-![Planta Baixa – Tipo Indefinido](Imagens/imagem6.png)
+### ✏️ Editar Evento Existente  
+![Tela para alteração dos detalhes de um evento cadastrado](Imagens/imagem6.png)
 
-### 🌬️ Excluir Evento
-![Isométrico com Ventilação](Imagens/imagem7.png)
+### 🗑️ Excluir Evento  
+![Confirmação para remoção definitiva de um evento](Imagens/imagem7.png)
 
 
 
