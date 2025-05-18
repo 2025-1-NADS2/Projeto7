@@ -138,24 +138,25 @@ instituto-criativo/
 ## 📸 Capturas de Tela
 
 ### 🧊 Isométrico de Água Fria
-![Isométrico de Água Fria](images/imagem1.png)
+![Isométrico de Água Fria](Imagens/imagem1.png)
 
 ### 🚰 Planta de Água Fria – Vista Superior
-![Planta de Água Fria – Vista Superior](images/imagem2.png)
+![Planta de Água Fria – Vista Superior](Imagens/imagem2.png)
 
 ### 🏢 Planta de Água Fria – Outro Pavimento
-![Planta de Água Fria – Outro Pavimento](images/imagem3.png)
+![Planta de Água Fria – Outro Pavimento](Imagens/imagem3.png)
 
 ### ♻️ Planta Baixa de Esgoto
-![Planta Baixa de Esgoto](images/imagem4.png)
+![Planta Baixa de Esgoto](Imagens/imagem4.png)
 
 ### 🧱 Isométrico de Esgoto
-![Isométrico de Esgoto](images/imagem5.png)
+![Isométrico de Esgoto](Imagens/imagem5.png)
 
 ### 🌀 Planta Baixa (Possivelmente Pluvial)
-![Planta Baixa – Tipo Indefinido](images/imagem6.png)
+![Planta Baixa – Tipo Indefinido](Imagens/imagem6.png)
 
 ### 🌬️ Isométrico com Ventilação
-![Isométrico com Ventilação](images/imagem7.png)
+![Isométrico com Ventilação](Imagens/imagem7.png)
+
 
 
