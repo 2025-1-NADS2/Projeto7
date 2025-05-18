@@ -135,15 +135,27 @@ instituto-criativo/
 
 ---
 
-## 🖼️ Imagens incluídas:
+## 📸 Capturas de Tela
 
-| Nome do Arquivo   | Descrição                                        |
-|-------------------|--------------------------------------------------|
-| **imagem1.png**   | Isométrico de água fria                          |
-| **imagem2.png**   | Planta de água fria – vista superior             |
-| **imagem3.png**   | Planta de água fria – outro pavimento            |
-| **imagem4.png**   | Planta baixa de esgoto                           |
-| **imagem5.png**   | Isométrico de esgoto                             |
-| **imagem6.png**   | Planta baixa – tipo indefinido (esgoto ou pluvial) |
-| **imagem7.png**   | Isométrico (provável ventilação + esgoto)        |
+### 🧊 Isométrico de Água Fria
+![Isométrico de Água Fria](images/imagem1.png)
+
+### 🚰 Planta de Água Fria – Vista Superior
+![Planta de Água Fria – Vista Superior](images/imagem2.png)
+
+### 🏢 Planta de Água Fria – Outro Pavimento
+![Planta de Água Fria – Outro Pavimento](images/imagem3.png)
+
+### ♻️ Planta Baixa de Esgoto
+![Planta Baixa de Esgoto](images/imagem4.png)
+
+### 🧱 Isométrico de Esgoto
+![Isométrico de Esgoto](images/imagem5.png)
+
+### 🌀 Planta Baixa (Possivelmente Pluvial)
+![Planta Baixa – Tipo Indefinido](images/imagem6.png)
+
+### 🌬️ Isométrico com Ventilação
+![Isométrico com Ventilação](images/imagem7.png)
+
 
