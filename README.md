@@ -159,4 +159,10 @@ instituto-criativo/
 ![Confirmação para remoção definitiva de um evento](Imagens/imagem7.png)
 
 
+---
 
+🎓 Referências
+Aqui estão as referências usadas no projeto.
+
+- https://github.com/fecaphub
+- https://www.institutocriativo.com.br/
