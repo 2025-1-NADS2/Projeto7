@@ -61,8 +61,6 @@ O **Instituto Criativo** é uma plataforma web desenvolvida para uma ONG que pro
 
 ## 📁 Estrutura de Arquivos
 
-## 📁 Estrutura de Arquivos
-
 ```txt
 instituto-criativo/
 ├── public/
