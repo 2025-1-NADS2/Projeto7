@@ -1,126 +1,133 @@
-# FECAP - Fundação de Comércio Álvares Penteado
-
-<p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
-</p>
-
-## Integrantes:
-
-<a href="https://www.linkedin.com/in/henrique-jorge-2b977726b/" target="_blank">Henrique Jorge</a>, 
-<a href="https://www.linkedin.com/in/pedro-augusto-da-silva-macedo-9a0200187/" target="_blank">Pedro Macedo</a>, 
-<a href="https://www.linkedin.com/in/luiz-eduardo-souza-rocha-09aab2321/" target="_blank">Luiz Rocha</a>
-
 # Instituto Criativo - Plataforma de Gestão de Eventos
 
-![Preview da Página Inicial](public/images/preview.jpg)
+<p align="center">
+  <a href="https://www.fecap.br/">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado">
+  </a>
+</p>
 
-## Descrição do Projeto
+## 👥 Integrantes
 
-O Instituto Criativo é uma plataforma web completa para gestão de eventos educacionais, desenvolvida para uma ONG que transforma vidas através da educação criativa e inovadora. O sistema inclui:
+- [Henrique Jorge](https://www.linkedin.com/in/henrique-jorge-2b977726b/)
+- [Pedro Macedo](https://www.linkedin.com/in/pedro-augusto-da-silva-macedo-9a0200187/)
+- [Luiz Rocha](https://www.linkedin.com/in/luiz-eduardo-souza-rocha-09aab2321/)
 
-- Página institucional com informações sobre a organização
-- Área logada para administração de eventos
-- Sistema completo de CRUD para eventos
-- Páginas de autenticação (login e cadastro)
+---
 
-## Funcionalidades
+## 📝 Descrição do Projeto
 
-### Páginas Públicas
-- **Página Inicial**: Apresenta a missão, visão, valores e programas da ONG
-- **Seção de Impacto**: Mostra estatísticas e depoimentos sobre o trabalho realizado
-- **Área de Doações**: Permite que visitantes contribuam financeiramente
-- **Formulário de Contato**: Para interessados em obter mais informações
+O **Instituto Criativo** é uma plataforma web desenvolvida para uma ONG que promove a educação criativa e transformadora. O sistema permite gerenciar eventos de forma prática e organizada, tanto na área pública quanto na área administrativa.
 
-### Área Logada
-- **Dashboard**: Visão geral com métricas e próximos eventos
-- **Criação de Eventos**: Formulário completo com:
-  - Informações básicas do evento
-  - Data e horário
-  - Lista de participantes
-  - Upload de imagem de divulgação
-- **Edição de Eventos**: Fluxo em duas etapas para seleção e edição
-- **Exclusão de Eventos**: Processo em três etapas com confirmação
+### Funcionalidades principais:
 
-## Tecnologias Utilizadas
+- Página institucional sobre a organização
+- Sistema CRUD completo para eventos
+- Páginas de login e cadastro
+- Dashboard com visão gerencial
+
+---
+
+## 🚀 Funcionalidades
+
+### 🔓 Páginas Públicas
+
+- **Página Inicial:** Missão, visão, valores e projetos da ONG
+- **Seção de Impacto:** Depoimentos e dados de impacto social
+- **Área de Doações:** Para contribuições financeiras
+- **Formulário de Contato:** Canal de comunicação com a organização
+
+### 🔐 Área Logada
+
+- **Dashboard:** Exibição de métricas e eventos cadastrados
+- **Criar Evento:** 
+  - Informações básicas, data, participantes e imagem
+- **Editar Evento:** 
+  - Seleção do evento e edição de dados
+- **Excluir Evento:** 
+  - Confirmação de exclusão com justificativa
+
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 - HTML5 semântico
-- CSS3 moderno com Flexbox e Grid
-- JavaScript (ES6+) para interatividade
-- Design responsivo para todos os dispositivos
-- Ícones do Font Awesome
-- Fontes Google (Poppins, Roboto, Archivo)
+- CSS3 com Flexbox e Grid
+- JavaScript (ES6+)
+- Design responsivo
+- Font Awesome
+- Google Fonts (Poppins, Roboto, Archivo)
 
-## Estrutura de Arquivos
+---
+
+## 📁 Estrutura de Arquivos
+
 instituto-criativo/
-├── public/ # Arquivos públicos
-│ ├── images/ # Imagens do projeto
-│ └── logo.png # Logo da organização
+├── public/
+│ ├── images/
+│ └── logo.png
 ├── src/
-│ ├── auth/ # Páginas de autenticação
+│ ├── auth/
 │ │ ├── cadastro.html
 │ │ ├── login.html
-│ │ ├── styles.css # Estilos compartilhados
-│ │ └── script.js # Lógica de autenticação
-│ ├── dashboard/ # Área administrativa
+│ │ ├── styles.css
+│ │ └── script.js
+│ ├── dashboard/
 │ │ ├── criar-evento.html
 │ │ ├── editar-evento.html
 │ │ ├── excluir-evento.html
 │ │ ├── dashboard.html
-│ │ ├── styles/ # Estilos específicos
+│ │ ├── styles/
 │ │ │ ├── criar-evento.css
 │ │ │ ├── dashboard.css
 │ │ │ ├── editar-evento.css
 │ │ │ └── excluir-evento.css
-│ │ └── scripts/ # Lógica do dashboard
+│ │ └── scripts/
 │ │ ├── criar-evento.js
 │ │ ├── dashboard.js
 │ │ ├── editar-evento.js
 │ │ └── excluir-evento.js
-│ └── pagina_inicial.html # Landing page institucional
-├── README.md # Este arquivo
-└── index.html # Ponto de entrada (redireciona para página inicial)
+│ └── pagina_inicial.html
+├── README.md
+└── index.html
 
-## Como Executar o Projeto
-
-Siga estes passos para testar a plataforma localmente:
+## ▶️ Como Executar o Projeto
 
 1. **Baixe e extraia os arquivos**
-   - Faça o download do arquivo ZIP do projeto
-   - Extraia os arquivos em uma pasta de sua preferência
+   - Faça o download do ZIP e extraia em uma pasta local.
 
 2. **Acesse a página inicial**
-   - Abra o arquivo `pagina_inicial.html` no seu navegador
-   - Explore as seções institucionais (Sobre Nós, Programas, etc.)
+   - Abra `pagina_inicial.html` no navegador.
 
-3. **Acesse a área logada**
-   - Clique no botão "Área logada" no menu superior
-   - Você será redirecionado para a página de login
-
-4. **Faça login (credenciais de teste)**
+3. **Área Logada**
+   - Clique em "Área logada" no menu superior.
+   - Use credenciais de teste (se necessário).
    
+4. **Realize o login**
+   - Preencha com seu email e senha.
+   - Ou cadastre-se clicando no botão cadastrar-se.
+     
 5. **Navegue pelo Dashboard**
-- Visualize as estatísticas e eventos cadastrados
-- Menu lateral permite acesso a todas funcionalidades
+   - Veja métricas e eventos cadastrados.
+   - Utilize o menu lateral para navegar.
 
-6. **Crie um novo evento**
-- Clique em "Criar novo evento" no menu
-- Preencha todos os campos obrigatórios (*)
-- Adicione participantes clicando em "+ Adicionar"
-- Selecione uma imagem para divulgação
-- Clique em "Publicar" para salvar
+6. **Criar Evento**
+   - Clique em "Criar novo evento".
+   - Preencha os campos obrigatórios (*).
+   - Adicione participantes.
+   - Selecione uma imagem.
+   - Clique em "Publicar".
 
-7. **Edite um evento existente**
-- No menu lateral, clique em "Editar evento"
-- Selecione o evento na lista dropdown
-- Modifique os campos desejados
-- Clique em "Salvar Alterações"
+7. **Editar Evento**
+   - Acesse "Editar evento".
+   - Selecione um evento.
+   - Edite os campos.
+   - Clique em "Salvar Alterações".
 
-8. **Exclua um evento**
-- No menu, selecione "Excluir evento"
-- Escolha o evento a ser removido
-- Informe o motivo do cancelamento
-- Confirme a exclusão marcando a caixa
-- Clique em "Publicar Exclusão"
+8. **Excluir Evento**
+   - Acesse "Excluir evento".
+   - Selecione o evento.
+   - Informe o motivo da exclusão.
+   - Marque a confirmação.
+   - Clique em "Publicar Exclusão".
 
-Dica: Todos os formulários possuem validação - campos com * são obrigatórios!
-
+> 💡 Todos os formulários possuem validação — campos com * são obrigatórios!
