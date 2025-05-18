@@ -161,8 +161,8 @@ instituto-criativo/
 
 ---
 
-🎓 Referências
-Aqui estão as referências usadas no projeto.
+## 🎓 Referências
+### Aqui estão as referências usadas no projeto.
 
 - https://github.com/fecaphub
 - https://www.institutocriativo.com.br/
