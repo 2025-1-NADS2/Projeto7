@@ -61,32 +61,35 @@ O **Instituto Criativo** é uma plataforma web desenvolvida para uma ONG que pro
 
 ## 📁 Estrutura de Arquivos
 
+## 📁 Estrutura de Arquivos
+
+```txt
 instituto-criativo/
 ├── public/
-│ ├── images/
-│ │ └── logo.png
+│   └── images/
+│       └── logo.png
 ├── src/
-│ ├── auth/
-│ │ ├── cadastro.html
-│ │ ├── login.html
-│ │ ├── styles.css
-│ │ └── script.js
-│ ├── dashboard/
-│ │ ├── criar-evento.html
-│ │ ├── editar-evento.html
-│ │ ├── excluir-evento.html
-│ │ ├── dashboard.html
-│ │ ├── styles/
-│ │ │ ├── criar-evento.css
-│ │ │ ├── dashboard.css
-│ │ │ ├── editar-evento.css
-│ │ │ └── excluir-evento.css
-│ │ └── scripts/
-│ │ ├── criar-evento.js
-│ │ ├── dashboard.js
-│ │ ├── editar-evento.js
-│ │ └── excluir-evento.js
-│ └── pagina_inicial.html
+│   ├── auth/
+│   │   ├── cadastro.html
+│   │   ├── login.html
+│   │   ├── styles.css
+│   │   └── script.js
+│   ├── dashboard/
+│   │   ├── criar-evento.html
+│   │   ├── editar-evento.html
+│   │   ├── excluir-evento.html
+│   │   ├── dashboard.html
+│   │   ├── styles/
+│   │   │   ├── criar-evento.css
+│   │   │   ├── dashboard.css
+│   │   │   ├── editar-evento.css
+│   │   │   └── excluir-evento.css
+│   │   └── scripts/
+│   │       ├── criar-evento.js
+│   │       ├── dashboard.js
+│   │       ├── editar-evento.js
+│   │       └── excluir-evento.js
+│   └── pagina_inicial.html
 ├── README.md
 └── index.html
 
