@@ -92,7 +92,7 @@ instituto-criativo/
 │   └── pagina_inicial.html
 ├── README.md
 └── index.html
-
+```
 ## ▶️ Como Executar o Projeto
 
 1. **Baixe e extraia os arquivos**
