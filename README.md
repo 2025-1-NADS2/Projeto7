@@ -64,7 +64,7 @@ O **Instituto Criativo** é uma plataforma web desenvolvida para uma ONG que pro
 instituto-criativo/
 ├── public/
 │ ├── images/
-│ └── logo.png
+│ │ └── logo.png
 ├── src/
 │ ├── auth/
 │ │ ├── cadastro.html
