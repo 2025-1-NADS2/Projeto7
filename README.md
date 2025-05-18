@@ -132,3 +132,22 @@ instituto-criativo/
    - Clique em "Publicar Exclusão".
 
 > 💡 Todos os formulários possuem validação — campos com * são obrigatórios!
+
+---
+
+## 📂 Documentação dos Projetos Hidrossanitários
+
+Este repositório contém as pranchas de um projeto hidrossanitário com vistas isométricas e plantas baixas das instalações hidráulicas e sanitárias. As imagens estão organizadas e nomeadas sequencialmente para fácil referência.
+
+### 🖼️ Imagens incluídas:
+
+| Nome do Arquivo   | Descrição                                        |
+|-------------------|--------------------------------------------------|
+| **imagem1.png**   | Isométrico de água fria                          |
+| **imagem2.png**   | Planta de água fria – vista superior             |
+| **imagem3.png**   | Planta de água fria – outro pavimento            |
+| **imagem4.png**   | Planta baixa de esgoto                           |
+| **imagem5.png**   | Isométrico de esgoto                             |
+| **imagem6.png**   | Planta baixa – tipo indefinido (esgoto ou pluvial) |
+| **imagem7.png**   | Isométrico (provável ventilação + esgoto)        |
+
